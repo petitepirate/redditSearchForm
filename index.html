@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Search</title>
+</head>
+
+<body>
+    <h1>Reddit Search Form</h1>
+    <form action="https://www.reddit.com/search" method="get">
+        <label for="search">Seach Topic:</label>
+        <input type="text" name="q" placeholder="Search for... " id="search">
+        <br>
+        <label for="sort">Sort By:</label>
+        <select name="sort" id="sort">
+            <option value="top">Top</option>
+            <option value="new">New</option>
+            <option value="comments">Comments</option>
+        </select>
+        <button type="submit">Search!</button>
+    </form>
+
+</body>
+
+</html>
